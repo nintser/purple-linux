@@ -1,0 +1,1 @@
+sudo add-apt-repository -r deb http://ports.ubuntu.com/ubuntu-ports/ jammy-security universe
