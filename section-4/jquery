@@ -1,0 +1,2 @@
+apt search jquery highlight syntax
+sudo apt install -y libjs-jquery-jush
