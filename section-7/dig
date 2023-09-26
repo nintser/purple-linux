@@ -1,0 +1,25 @@
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.3-Ubuntu <<>> www.google.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19686
+;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		19	IN	A	74.125.200.106
+www.google.com.		19	IN	A	74.125.200.105
+www.google.com.		19	IN	A	74.125.200.147
+www.google.com.		19	IN	A	74.125.200.103
+www.google.com.		19	IN	A	74.125.200.104
+www.google.com.		19	IN	A	74.125.200.99
+
+;; Query time: 12 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (UDP)
+;; WHEN: Mon Sep 25 18:36:49 +07 2023
+;; MSG SIZE  rcvd: 139
+
