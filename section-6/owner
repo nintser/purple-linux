@@ -1,0 +1,3 @@
+find ~/owner/ -perm 400
+# OR
+sudo ls -l ~/owner/ | grep ^-r--
