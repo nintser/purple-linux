@@ -1,0 +1,1 @@
+sudo mkdir /mnt/tmp-data && sudo mount -t tmpfs -o size=100M tmpfs /mnt/tmp-data
