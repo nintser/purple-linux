@@ -3,3 +3,10 @@ pvcreate /dev/vdb1
 vgcreate volume1 /dev/vdb1
 lvcreate volume1 -n storage -l 100%FREE
 exit
+
+sudo -i
+mkfs.xfs /dev/volume1/storage
+mkdir /storage
+mount /dev/volume1/storage /storage
+echo "/dev/volume1/storage /storage xfs defaults 0 0" >> /etc/fstab
+exit
